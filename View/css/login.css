@@ -1,0 +1,100 @@
+@font-face{
+	font-family: 'roboto';
+	src: url(fonts/Roboto-Regular.ttf);
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400; 
+  src: url(fonts/MaterialIcons-Regular.ttf) format('truetype');
+}
+
+/* Icones do material*/
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+/* tamanho do icone*/
+.material-icons.md-20 { font-size: 20px; }
+
+/* icone escuro*/
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.50); }
+
+.form-container{
+	align-content: center;
+	position: absolute;
+	margin-top: -7%;
+	left: 18%;
+	right: 20%;	
+	padding: 30px;	
+	width: 40%;
+	box-shadow: 0px 0px 10px #000;
+	font-family: 'roboto', sans-serif;
+	font-size: 5pt;
+	border-radius: 0px;	
+}
+
+/* formulario login*/
+.form-login{
+	position: relative;
+	left: 16%;	
+}
+
+input:valid{
+	background: white;
+}
+.invalido {
+	box-shadow: 0px 0px 10px #1976D2 ;
+    border: 0px ;
+    background:white;
+}
+
+button {	
+	margin-right: 10px;
+}
+
+#fundo {
+	position: relative;		
+	background:linear-gradient(90deg, #00d2ff 10%, #3a7bd5 90%);	
+	height:24em;
+}
+
+.btn-info{
+	background-color: #1976D2;
+	border-color: #1976D2;
+}
+
+.form-control-feedback {
+	pointer-events: auto;
+	margin-top:7px;
+	right: 10px;
+	 
+}
+
+.form-control{
+	border-radius: 0px;
+}
